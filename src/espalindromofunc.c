@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <hellomake.h>
+#include <espalindromo.h>
 
 int esPalindromo(char *palabra)
 {
