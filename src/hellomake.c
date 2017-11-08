@@ -4,14 +4,17 @@
 int main() {
   // call a function in another file
   int flag;
-  flag = esPalindromo("ana");
+  char cadena[256];
+  printf("Escribe una cadena para verificar si es palindromo: ");
+  scanf("%s", cadena);
+  flag = esPalindromo(cadena);
   if (flag == 1)
   {
-    printf("Es palindromo!");
+    printf("Es palindromo!\n");
   }
   else 
   {
-    printf("No es palindromo!");
+    printf("No es palindromo!\n");
   }
   return(0);
 }
